@@ -12,14 +12,15 @@ class Mail {
       host,
       port,
       secure,
-      auth: auth.user ? auth : null, // algumas estratégias de envio de emails não possuem autenticação
+      auth: auth.user ? auth : null,
     });
+
     this.configureTemplates();
   }
 
   configureTemplates() {
     const viewPath = resolve(__dirname, '..', 'app', 'views', 'emails');
-    // como ele compila/formata os templates de email
+
     this.transporter.use(
       'compile',
       nodemailerhbs({
