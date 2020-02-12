@@ -6,8 +6,6 @@ An app for appointment and scheduling of a barber.
 Installation
 Clone the project with
 
-git clone https://github.com/alexiakattah/gobarber-api.git
-Get in the path project, then install the dependencies with:
 
 yarn
 Then, you have to create your postgres database (Or another if you want) and fill your own fields in .env file.
@@ -39,4 +37,4 @@ VS Code with ESLint
 memo License
 This project is under the MIT license. See the LICENSE
 
-Made with ♥ by Alexia Kattah wave Linkedin
+Made with ♥ by Tales Habib wave Linkedin
