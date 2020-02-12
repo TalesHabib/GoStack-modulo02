@@ -1,42 +1,44 @@
-https://camo.githubusercontent.com/8c13dc2618dbd7f76d1d574350b98fdee1335ce5/68747470733a2f2f726f636b6574736561742d63646e2e73332d73612d656173742d312e616d617a6f6e6177732e636f6d2f626f6f7463616d702d6865616465722e706e67
-
-# GoStack-modulo02
-Application of the GoBarber project developed during Rocketseat's GoStack9 Bootcamp.
-
-An app for appointment and scheduling of a barber.
-
-Installation
-Clone the project with
 
 
-yarn
-Then, you have to create your postgres database (Or another if you want) and fill your own fields in .env file.
+<h2>Features<h2>
+  
+A Node.js API built with Express and all the latest tools and best practices in development!
 
-Now, you have to create tables with the command:
-
-yarn sequelize db:migrate
-After database config, you can start the server with:
-
-yarn start
-If you are in development environment, you can use the development server:
-
-yarn dev
-rocket Technologies
-This project was developed at the RocketSeat GoStack Bootcamp with the following technologies:
-
-Node.js
-Express
-nodemon
-Sucrase
+⚡ Express — A web framework for Node
+floppy_disk Sequelize — SQL dialect ORM for Node.js
+fallen_leaf MongoDB — document-based database
+key Redis — key-value data model
+keyboard Yup - Object schema validation
+small_red_triangle Sentry - cross-platform application monitoring
+e-mail Nodemailer - Send e-mails with Node.JS
+sparkling_heart Lint — ESlint/Prettier/Editor Config
+Dependencies
+Node.js 8.0.0 ou >
+Yarn
 Docker
-Sequelize
-PostgreSQL
-node-postgres
-JWT
-Bcrypt
-Yup
-VS Code with ESLint
-memo License
-This project is under the MIT license. See the LICENSE
+Prerequisites
+In the next few weeks, I plan to include Docker directly in the repository with docker-compose, until there this step is required.
 
-Made with ♥ by Tales Habib wave Linkedin
+To run this server you will need three containers running on your machine.
+
+To do so, you will need to run the following commands:
+
+docker run --name redisbarber -p 6379:6379 -d -t redis:alpine;
+docker run --name mongobarber -p 27017:27017 -d -t mongo;
+docker run --name some-postgres -e POSTGRES_PASSWORD=docker -p 5433:5432 -d postgres;
+Remember: If you restart your machine, you will need to start again the server with docker start <container_id>.
+
+Getting started
+Consider checking out the FrontEnd repository!
+
+Clone this repo using https://github.com/jpedroschmitz/gobarber-api.git
+Move to the appropriate directory: cd gobarber-api.
+Run yarn to install dependencies.
+Copy the .env.example file and rename it to .env.
+Add all the values for the environment variables.
+Run yarn start and yarn queue to run the servers at http://localhost:3000.
+Contributing
+Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests.
+
+License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
