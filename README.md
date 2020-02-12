@@ -1,9 +1,9 @@
 
 <h2>Features<h2>
   
-<p>A Node.js API built with Express and all the latest tools and best practices in development!</p>
+A Node.js API built with Express and all the latest tools and best practices in development!
 
-⚡ Express — A web framework for Node
+<ul><li>⚡ Express — A web framework for Node</li>
 floppy_disk Sequelize — SQL dialect ORM for Node.js
 fallen_leaf MongoDB — document-based database
 key Redis — key-value data model
@@ -17,9 +17,10 @@ sparkling_heart Lint — ESlint/Prettier/Editor Config
   <li>Node.js 8.0.0 ou ></li>
   <li>Yarn</li>
   <li>Docker</li>
+ </ul>
   
   
-<h3> Prerequisites </h3>
+<h2> Prerequisites </h2>
 In the next few weeks, I plan to include Docker directly in the repository with docker-compose, until there this step is required.
 
 To run this server you will need three containers running on your machine.
