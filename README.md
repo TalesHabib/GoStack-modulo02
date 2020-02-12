@@ -1,6 +1,6 @@
 <h1 align="center">
 <br>
-  <img src="gostack" alt="GoBarber" width="90">
+  <img src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/bootcamp-header.png" alt="GoBarber" width="150">
 <br>
 <br>
 GoBarber 
