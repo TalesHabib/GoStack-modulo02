@@ -1,8 +1,7 @@
 
-
 <h2>Features<h2>
   
-A Node.js API built with Express and all the latest tools and best practices in development!
+<p>A Node.js API built with Express and all the latest tools and best practices in development!</p>
 
 ⚡ Express — A web framework for Node
 floppy_disk Sequelize — SQL dialect ORM for Node.js
